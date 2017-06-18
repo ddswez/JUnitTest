@@ -1,8 +1,8 @@
-package com.example.lpf.junittest;
+package com.example.lpf.junittest.mockito;
 
 /**
  * 测试无返回值方法
- * Created by lpf on 17/6/7.
+ * Created by lpf on 17/6/16.
  */
 
 public class LoginPresenter {

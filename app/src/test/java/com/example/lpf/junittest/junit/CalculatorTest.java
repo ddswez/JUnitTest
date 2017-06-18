@@ -1,13 +1,10 @@
-package com.example.lpf.junittest.util;
+package com.example.lpf.junittest.junit;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
-/**
- * Created by lpf on 17/6/1.
- */
 public class CalculatorTest {
 
     private Calculator mCalculator;
@@ -29,6 +26,9 @@ public class CalculatorTest {
         Assert.assertEquals(3, product);
     }
 
+    /**
+     * 验证方法会抛出某些异常
+     */
     @Test(expected = IllegalArgumentException.class)
     public void divide() {
         System.out.println("method divide()");

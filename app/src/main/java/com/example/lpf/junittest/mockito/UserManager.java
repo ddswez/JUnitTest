@@ -1,8 +1,5 @@
-package com.example.lpf.junittest;
+package com.example.lpf.junittest.mockito;
 
-/**
- * Created by lpf on 17/6/7.
- */
 
 public class UserManager {
 

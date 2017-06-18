@@ -1,7 +1,7 @@
-package com.example.lpf.junittest.util;
+package com.example.lpf.junittest.junit;
 
 /**
- * Created by lpf on 17/6/1.
+ * Created by lpf on 17/6/16.
  */
 
 public class Calculator {

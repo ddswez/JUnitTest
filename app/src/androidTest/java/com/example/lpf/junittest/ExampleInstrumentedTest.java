@@ -22,5 +22,6 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.lpf.junittest", appContext.getPackageName());
+        assertEquals(1000, BuildConfig.VERSION_CODE);
     }
 }
